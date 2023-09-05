@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    height: 100vh;
+    background: no-repeat url("header_photo.jpeg");
+    background-size: 100%;
+    display:block;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+    position:sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.135);
+}
+    
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.navbar a{
+    padding:0 30px;
+    text-decoration: none;
+    color:black;
+    font-size:1.2em;
+}
+.navbar a:hover{
+    color: white;
+}
+.login a{
+    font-size: 1.2em;
+    text-decoration: none;
+    border:1px solid rgba(83, 83, 83, 0.256);
+    padding:15px 25px;
+    border-radius: 10px;
+}
+.login a:hover{
+    color: white;
+    background-color: rgba(83, 83, 83, 0.256);
+    
+}
+header .message{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+    margin:0 auto;
+    border:2px solid white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 5em;
+    background-color: rgba(153, 153, 153, 0.237);
+    transform: translateY(50px);
+}
+.next{
+    background: no-repeat url("body2.jpg");
+    background-size: 100%;
+    height: 110vh;
+    display: block;
+}
+.panel {
+    
+    max-width: 960px;
+    max-height: 80vh;
+    padding:150px 25px 50px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px auto;
+    margin-top: 0;
+}
+.pricing-plan{
+    border-right: 1px solid #bfe0fd;
+    padding:0 15px;
+}
+.pricing-plan:hover{
+    background-color: rgba(228, 227, 227, 0.203);
+    transform: translateY(5px);
+}
+.pricing-plan:last-child{
+    border-right: none;
+}
+.pricing-img{
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+.pricing-header{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.pricing-features{
+    margin:25px 0 15px;
+    color:black;
+}
+.pricing-features-item{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 0;
+    color:#F2E8C6;
+    border-bottom: 1px solid #F2E8C6;
+}
+.pricing-features-item:last-child{
+    border-bottom: none;
+}
+.pricing-price{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color:black;
+}
+.pricing-button{
+    border: 1px solid rgba(0, 0, 0, 0.326);
+    border-radius: 5px;
+    display:inline-block;
+    padding: 15px 35px;
+    color:white;
+    text-decoration: none;
+    margin:15px 0;
+}
+.pricing-button:hover{
+    background-color: rgba(0, 0, 0, 0.473) ;
+    transform: translateY(5px)
+}
+footer nav{
+    height:10vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar2 a{
+    padding:0 20px;
+    text-decoration: none;
+    color:black;
+    font-size:1.1em;
+    text-transform: uppercase;
+}
+.navbar2 a:hover,.navbar a:active{
+    color:rgb(129, 129, 129);
+}
